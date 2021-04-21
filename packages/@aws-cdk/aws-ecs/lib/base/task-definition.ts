@@ -803,7 +803,7 @@ export interface Volume {
    *
    * @default No Elastic FileSystem is setup
    */
-  readonly efsVolumeConfiguration?: EfsVolumeConfiguration;
+  readonly efsVolumeConfiguration?: EFSVolumeConfiguration;
 }
 
 /**
@@ -922,7 +922,7 @@ export interface AuthorizationConfig {
 /**
  * The configuration for an Elastic FileSystem volume.
  */
-export interface EfsVolumeConfiguration {
+export interface EFSVolumeConfiguration {
   /**
    * The Amazon EFS file system ID to use.
    */

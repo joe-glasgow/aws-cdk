@@ -1189,7 +1189,7 @@ describe('ec2 task definition', () => {
         Family: 'Ec2TaskDef',
         Volumes: [{
           Name: 'scratch',
-          EfsVolumeConfiguration: {
+          EFSVolumeConfiguration: {
             FileSystemId: 'local',
           },
         }],
